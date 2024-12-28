@@ -40,7 +40,7 @@ const RegisterCandidate = () => {
               "x-access-token": token,
             },
           };
-          const res = await axios.post("http://localhost:8080/api/v1/uploadCandidate", form, config);
+          const res = await axios.post("https://votingdapp-1vp7.onrender.com/api/v1/uploadCandidate", form, config);
           if (res.data?.success) {
             console.log(res.data);
             return true;

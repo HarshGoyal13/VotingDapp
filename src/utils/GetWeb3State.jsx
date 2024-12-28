@@ -37,7 +37,7 @@ export const getWeb3State = async () => {
         // Send the signature and address to the backend
         const dataSignature = { signature };
         const res = await axios.post(
-            `http://localhost:8080/api/v1/authentication?accountAddress=${selectedAccount}`,
+            `https://votingdapp-1vp7.onrender.com/api/v1/authentication?accountAddress=${selectedAccount}`,
             dataSignature
         );
 

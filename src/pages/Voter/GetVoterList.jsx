@@ -13,7 +13,7 @@ const GetVoterList = () => {
   const getVoterImage = async (accountAddress) => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('http://localhost:8080/api/v1/getVoterImage', 
+      const res = await axios.post('https://votingdapp-1vp7.onrender.com/api/v1/getVoterImage', 
         { accountAddress },
         {
           headers: {
