@@ -2,11 +2,10 @@
   "name": "mongodblive",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
-},
-
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +16,7 @@
     "dotenv": "^16.4.5",
     "ethers": "^5.7.0",
     "express": "^4.20.0",
+    "express-fileupload": "^1.5.1",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.8.1",
     "mongoose": "^8.6.1",
